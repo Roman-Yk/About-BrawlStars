@@ -448,6 +448,29 @@ margin-bottom: 40px;
     }
 }
 /* ______________________TEAM SECTION________________________ */
+.section-header{
+font-size:14px;
+}
+.section-header::after {
+    content: '';
+    width: 30px;
+    height: 1px;
+    background-color: #babdc1;
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 10px;
+}
+.section-header::before {
+    content: '';
+    width: 30px;
+    height: 1px;
+    background-color: #babdc1;
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 10px;
+}
 .team-section{
     display: flex;
     flex-direction: column;
